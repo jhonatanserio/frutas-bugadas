@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+<!--Link game.js e player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script>
+<!--Adicione configuração do banco de dados abaixo-->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBKYk1nAuewRTjphjqca5ofjB3EPEP1HLc",
+    authDomain: "quem-pega-mais-fruta.firebaseapp.com",
+    databaseURL: "https://quem-pega-mais-fruta-default-rtdb.firebaseio.com",
+    projectId: "quem-pega-mais-fruta",
+    storageBucket: "quem-pega-mais-fruta.appspot.com",
+    messagingSenderId: "862243502930",
+    appId: "1:862243502930:web:2f8ded96a1f44b7d2e988b"
+  };
+
+  // Initialize Firebase
+  //const firebase = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
